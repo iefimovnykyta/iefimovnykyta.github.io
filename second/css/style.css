@@ -1,0 +1,199 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'Montserrat', sans-serif;
+	background-color: #8d66ab;
+	color: #fff;
+	font-weight: 500;
+}
+
+.hero{
+	position: absolute;
+	width: 100%;
+	height: 100vh;
+	overflow: hidden;
+}
+.bg-element1{
+	position: absolute;
+	background-color:#775196;
+	width: 1200px;
+	height: 600px;
+	-moz-transform: scale(1.1) rotate(20deg);
+	-webkit-transform: scale(1.1) rotate(20deg);
+	-o-transform: scale(1.1) rotate(20deg);
+	-ms-transform: scale(1.1) rotate(20deg);
+	transform: scale(1.1) rotate(20deg);
+	left: -300px;
+	bottom: -400px;
+}
+
+.bg-element2{
+	position: absolute;
+	background-color: rgba(96, 66, 121, 0.37);
+	width: 900px;
+	height: 800px;
+	-moz-transform: scale(1.1) rotate(121deg);
+	-webkit-transform: scale(1.1) rotate(121deg);
+	-o-transform: scale(1.1) rotate(121deg);
+	-ms-transform: scale(1.1) rotate(121deg);
+	transform: scale(1.1) rotate(121deg);
+	right: -100px;
+	bottom: -399px;
+}
+
+.bg-element3{
+		position: absolute;
+		top: -500px;
+		right: -100px;
+		-moz-transform: rotate(120deg);
+		-webkit-transform: rotate(120deg);
+		-o-transform: rotate(120deg);
+		-ms-transform: rotate(120deg);
+		transform: rotate(120deg);
+		border: 3px dotted #bba3cd;
+		width: 1000px;
+		height: 580px;
+}
+
+.bg-element4{
+		position: absolute;
+		bottom: -500px;
+		right: -200px;
+		-moz-transform: rotate(120deg);
+		-webkit-transform: rotate(120deg);
+		-o-transform: rotate(120deg);
+		-ms-transform: rotate(120deg);
+		transform: rotate(120deg);
+		border: 3px dotted #bba3cd;
+		width: 1000px;
+		height: 580px;
+}
+
+.bg-element5{
+		position: absolute;
+		background-color: #fff;
+		top:0;
+		left: 25%;
+		width: 5px;
+		height: 125px;
+}
+
+.bg-element6{
+		position: absolute;
+		background-color: #fff;
+		bottom:0;
+		right:15%;
+		width: 5px;
+		height: 125px;
+}
+
+.bg-element7{
+		position: absolute;
+		background-color: #fff;
+		top:10%;
+		right:46%;
+		width: 32px;
+		height: 4px;
+}
+
+.bg-element8{
+		position: absolute;
+		background-color: #fff;
+		bottom:10%;
+		right:46%;
+		width: 32px;
+		height: 4px;
+}
+
+
+.logo{
+	display: block;
+	position: absolute;
+	top: 10%;
+	margin-top: -19px;
+	left: 10%;
+	margin-left: -51px;
+}
+
+.man{
+	width: 471px;
+	height: 680px;
+	position: absolute;
+	background: url(../img/man.png);
+	right: 25%;
+	top: 50%;
+	margin-top: -340px;
+	margin-right: -235px;
+}
+
+.man:before{
+	content: '';
+	display: block;
+	width: 520px;
+	height: 520px;
+	border: 3px dotted #fff;
+	border-radius: 50%;
+	margin-left:-28px;
+	margin-top: 87px;
+	}
+
+	.man_circle{
+		position: absolute;
+		width: 280px;
+		height: 280px;
+		border: 2px solid #fff;
+		border-radius: 50%;
+		top: 205px;
+	}
+
+	.man_circle_left{
+		margin-left:34px;
+	}
+
+	.man_circle_right{
+		margin-left: 144px;
+	}
+
+	.offer{
+		position: absolute;
+		top: 50%;
+		margin-top: -220px;
+		left:30%;
+		margin-left:-300px;
+	}
+
+	.offer_intro{
+		font-size: 15px;
+		margin-bottom: 124px;
+	
+	}
+
+	.offer-title{
+		font-weight: 900;
+		font-size: 30px;
+		margin-bottom: 137px;
+	}
+
+	.offer_addition{
+		font-size: 21px;
+		display: block;
+	}
+
+	.offer-btn{
+		display: block;
+		width: 247px;
+		height: 62px;
+		color: #8d66ab;
+		background-color: #fff;
+		text-align: center;
+		border: none;
+		font-size: 17px;
+		font-weight: 900;
+		cursor: pointer;
+		transition: all 0.5 ease;
+
+	}
+
+	.offer-btn:hover{
+		box-shadow: 0 0 40px rgba(0,0,0, 0.4);
+	}
